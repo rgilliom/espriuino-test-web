@@ -1,0 +1,17 @@
+puck2.js
+==========================
+In function connect(callback)
+
+btServer is a function global for the bluetooth server.
+    returned by device.gatt.connect()
+
+btService is a function global for the primary service NORDIC_SERVICE
+    We may need to have another service variable for a secondary service.
+
+txCharacteristic
+
+rxCharacteristic
+
+We may need another variable for a custom characterstic.
+
+
